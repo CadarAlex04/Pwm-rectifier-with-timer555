@@ -21,7 +21,7 @@ This is a power control circuit that uses a 555 timer to generate a square wave 
 * **R4:** 1 kΩ - Current limiting resistor for the base of the transistor Q1.
 * **R5:** 1 kΩ - Load resistor for the 30V switching circuit.
 * **C1:** 100 nF - Timing capacitor that, along with R1, R2, and R3, sets the pulse frequency.
-* **C2:** 100 nF - Decoupling/bypass capacitor for the NE555 VCC pin (U1).
+* **C2:** 100 nF - Bypass capacitor connected to the Control Voltage (CV) pin  to prevent noise interference.
 * **D1, D2:** 1N4148 - Diodes that separate the charge (ON) and discharge (OFF) paths of C1.
 * **D3:** 1N4148 - Protection diode for the switching circuit (V2/R5).
 * **Q1:** 2N2222 - Transistor switch for the 30V load.
