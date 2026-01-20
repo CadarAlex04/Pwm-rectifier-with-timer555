@@ -28,10 +28,8 @@ This is a power control circuit that uses a 555 timer to generate a square wave 
 * **V1:** 9V - Power for the 555 timer control circuit.
 * **V2:** 30V - Power for the external load/rectifier section being switched.
 
-## Future Plans
+## KiCad schematics : 
+<img width="1053" height="697" alt="image" src="https://github.com/user-attachments/assets/3290d87a-fb98-4d37-9c36-2bb36ad913ff" />
+<img width="1195" height="616" alt="image" src="https://github.com/user-attachments/assets/5782f73b-42b5-430d-937f-ef5e46f5b73b" />
+<img width="2208" height="1463" alt="image" src="https://github.com/user-attachments/assets/c78be653-2403-4049-b061-73b77a982402" />
 
-The next steps for this project include:
-
-1. Designing the **PCB layout** using KiCad.
-
-2. Creating a **3D model** of the assembled PCB for visualization and enclosure design.
